@@ -1,5 +1,5 @@
 import { endAdventure } from '..';
-import { wakeUp } from './6_wake_up';
+import { wakeUp } from './7_wake_up';
 import { askQuestion, clear, print } from '../console';
 
 const verdicts = ['Guilty', 'Not Guilty'] as const;
@@ -12,6 +12,7 @@ interface Witness {
 
 export function meetTheQueen(): void {
 	clear(true);
+	print(`Well done! You've only gone and managed to land yourself in the palace!`);
 	print('The Queen has put you on trial for stealing tarts.');
 
 	let guilty: boolean = false;

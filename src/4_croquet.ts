@@ -1,5 +1,5 @@
 import { endAdventure } from '..';
-import { meetTheQueen } from './5_queen_of_hearts';
+import { enterHideAndSeek } from './5_alice_in_borderland';
 import { askQuestion, clear, print } from '../console';
 
 // in Wonderland, croquet is played by using a flamingo to push a hedgehog through an arch made of playing cards
@@ -21,7 +21,7 @@ export function playCroquet(): void {
 	if (game && game.hit && game.hit("Hedgehog", "Flamingo")) {
 		print('🏆 Success! You scored! 🏆');
 		print('Time to chat with the queen...');
-		return askQuestion('Press ENTER to continue! ', meetTheQueen);
+		return askQuestion('Press ENTER to continue! ', enterHideAndSeek);
 	} else {
 		print(
 			'😭 Sadly, you lost. And now the queen wants to decapitate you! 😱'
