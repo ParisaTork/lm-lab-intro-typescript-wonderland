@@ -1,5 +1,5 @@
 import { endAdventure } from '..';
-import { wakeUp } from './7_wake_up';
+import { wakeUp } from './10_wake_up';
 import { askQuestion, clear, print } from '../console';
 
 const verdicts = ['Guilty', 'Not Guilty'] as const;

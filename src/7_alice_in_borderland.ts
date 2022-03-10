@@ -1,5 +1,5 @@
 import { endAdventure } from '..';
-import {meetTheQueen} from './6_queen_of_hearts';
+import {meetTheQueen} from './8_queen_of_hearts';
 import { askQuestion, clear, print } from '../console';
 
 const hidingPlaces = ['Behind a bush of roses 🌹', 'Under the tea party table 🫖', 'In the royal palace 👑'] as const;

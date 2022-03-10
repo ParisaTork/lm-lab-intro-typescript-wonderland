@@ -1,6 +1,6 @@
 import { endAdventure } from '..';
 import { askQuestion, clear, print } from '../console';
-import { attendATeaParty } from './3_tea_party';
+import { attendATeaParty } from './9_tea_party';
 
 const expressions = [
 	'☹ Frown ☹',

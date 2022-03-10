@@ -1,5 +1,5 @@
 import { endAdventure } from '..';
-import { enterHideAndSeek } from './5_alice_in_borderland';
+import { enterHideAndSeek } from './7_alice_in_borderland';
 import { askQuestion, clear, print } from '../console';
 
 // in Wonderland, croquet is played by using a flamingo to push a hedgehog through an arch made of playing cards

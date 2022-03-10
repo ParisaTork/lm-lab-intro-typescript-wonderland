@@ -1,5 +1,5 @@
 import { endAdventure } from '..';
-import { playCroquet } from './4_croquet';
+import { playCroquet } from './6_croquet';
 import { askQuestion, clear, print } from '../console';
 
 const drinks = ['Coffee', 'Tea', 'Water', 'Lemonade'] as const;

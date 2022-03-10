@@ -1,5 +1,5 @@
 import { endAdventure } from '..';
-import { meetTheCheshireCat } from './2_cheshire_cat';
+import { openTheDoor } from './2_drink_me';
 import { clear, print, askQuestion } from '../console';
 
 // NOTE: making a custom type from an array can be very useful
@@ -36,7 +36,7 @@ export function enterHole(hole: string): void {
 	}
 
 	if (holes[number] === 'Rabbit') {
-		return meetTheCheshireCat();
+		return openTheDoor();
 	} else {
 		print(`WHAAAAT ❓🤯😅❓`);
 		print(`You can't find adventures down a ${holes[number]} hole!`);
