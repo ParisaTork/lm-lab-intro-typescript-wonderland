@@ -27,7 +27,7 @@ function getComestibles(): Comestible {
 		};
 }
 
-export function consume(numberChoice: string): void {
+export function consume(): void {
 	clear(true);
 	const consumable = getComestibles();
 	
